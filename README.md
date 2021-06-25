@@ -1,21 +1,18 @@
-# CircleCI Training Kōans
+# Databases
 
-> _kōan_ (noun): a paradoxical anecdote or riddle, used in Zen Buddhism to demonstrate the inadequacy of logical reasoning and to provoke enlightenment.
+**Description:**
 
-In this repo, you will find a series of challenges of increasing difficulty related to CircleCI 2.1 configs. There is one challenge per folder; each challenge will include its own instructions via a `README.md`.
+The user is attempting to run a node web application which connects to a Postgresql database. The user wants to know how to to add the database to their project.
 
-# How to follow along?
+**Goals:**
 
-The best way to follow along is to create a new repository on your personal GitHub account for the purpose of running tests. You can copy the config files from each challenge into your own CircleCI project to test if the new config works.
+- Modify the included config file to get a green job.
+- Share link to green job.
 
-_side note_: If you come across an issue with a config that isn't directly related to the challenge, consider it a learning opportunity, unless it is related to an underlying change to the platform.
-
-# Maintainers
-
-Overall this repository is utilized during the onboarding process for multiple teams in the Customer Engineering organization. Feel free to reach out to @nbialostosky (Nick Bialostosky) if you need a PR review or general questions. If they are not available, anyone on the support team should be able to assist (#custeng-support).
-
-# Keep a log
-
-Each challenge will ask you to record the link to the workflow or job where you have completed the challenge.
-
-Good luck!
+**Help:**
+<details>
+  <summary>Spoiler warning</summary>
+      * https://circleci.com/docs/2.0/postgres-config/
+      * https://github.com/Animosity/CraftIRC/wiki/Complete-idiot's-introduction-to-yaml
+      * https://circleci.com/docs/2.0/hello-world/#echo-hello-world-with-a-build-job
+</details>
